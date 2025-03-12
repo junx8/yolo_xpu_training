@@ -1,0 +1,3 @@
+[submodule "ultralytics"]
+	path = ultralytics
+	url = https://github.com/junx8/ultralytics.git
