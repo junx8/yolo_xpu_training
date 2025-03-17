@@ -3,6 +3,8 @@
 ## intel xpu training patch for ultralytics
 
 ```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/test/xpu
+
 git clone https://github.com/junx8/yolo_xpu_training.git
 git submodule update --init --recursive
 
