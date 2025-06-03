@@ -7,7 +7,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # Load a model
-    model = YOLO("yolov5s.pt")  # build from YAML and transfer weights
+    model = YOLO("yolov8s.pt")  # build from YAML and transfer weights
 
     freeze = [f"model.{x}." for x in (args.freeze if len(args.freeze) > 1 else range(args.freeze[0]))]  # layers to freeze
     for k, v in model.named_parameters():
